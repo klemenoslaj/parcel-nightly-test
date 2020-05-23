@@ -1,0 +1,13 @@
+{
+  "name": "parcel-nightly-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.275"
+  },
+  "scripts": {
+    "serve": "yarn parcel serve index.html",
+    "build": "yarn parcel build index.html"
+  }
+}
